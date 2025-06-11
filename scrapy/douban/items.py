@@ -68,7 +68,7 @@ class Comment(Item):
     douban_id = Field()
     douban_comment_id = Field()
     douban_user_nickname = Field()
-    douban_user_avatar = Field()
+    # douban_user_avatar = Field()
     douban_user_url = Field()
     content = Field()
     votes = Field()
@@ -87,3 +87,6 @@ class PersonMeta(Item):
     constellatory = Field()
     name_zh = Field()
     name_en = Field()
+
+# class GroupThread(Item):
+    
